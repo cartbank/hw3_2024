@@ -141,10 +141,7 @@ nav a:hover, nav a:focus {
 first div in the grid  and place it in the grid. */
 .container div:first-child {
   grid-column: 1/-1;
-  /*for whatever reason, image will not display on pages unless a height argument is provided*/
-  /*works fine on live server without the height arg*/
-  height: 100%;
-  background-image: url(../images/header.jpg)
+  background-image: url("../images/header.jpg")
 }
 
 
