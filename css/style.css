@@ -144,7 +144,7 @@ first div in the grid  and place it in the grid. */
   background-image: url("../images/header.jpg")
   /*for some reason, the .overview selector's height arg is not applying to the first-child selector on github pages*/
   /*the arg still applies on live server, however, so as a work-around I have manually set the height to match the 400px specification*/
-  height: 400px;
+  /*height: 400px;*/
 }
 
 
